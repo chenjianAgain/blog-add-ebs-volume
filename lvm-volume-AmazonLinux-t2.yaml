@@ -34,7 +34,7 @@ Parameters:
   InstanceTypeParameter:
     Description: EC2 instance family/size, e.g. t2.large
     Type: String
-    Default: m5.large #t2.micro
+    Default: t2.micro
 
 Resources:
   InstanceSecurityGroup:
